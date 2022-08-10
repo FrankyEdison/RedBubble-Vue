@@ -36,7 +36,7 @@ export default {
 		submit() {
 			this.$axios({
 				method: 'post',
-				url:'/login',
+				url:'/user/signIn',
 				data: JSON.stringify({
 					username: this.username,
 					password: this.password
